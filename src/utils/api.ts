@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5002/api';
+const API_URL = 'https://api.maurodev.online/api';
 
 export async function generatePost(data: {
   topic?: string;
