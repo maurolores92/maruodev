@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.PUBLIC_API_URL;
+const API_URL = 'http://localhost:5002/api';
 
 export async function generatePost(data: {
   topic?: string;
