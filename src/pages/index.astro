@@ -1,0 +1,28 @@
+---
+import { Hero } from "@modules/Hero";
+import Layout from "../layouts/Layout.astro";
+import { About } from "@modules/About";
+import { Projects } from "@modules/Projects";
+import { LogosSlider } from "@modules/LogosSlider";
+import { Contact } from "@modules/Contact";
+
+import { HomepageData } from "@modules/Projects/data/HomepageData";
+import Chatbot from "@modules/ChatBot/ChatBox";
+---
+
+<Layout
+    title="Desarrollador Web Full Stack | Mauricio Lores"
+    description="Portfolio de Mauricio Lores, experto en desarrollo web con React, Node.js y TypeScript. Soluciones modernas para tu empresa."
+>
+    <main class="page-content">
+        <Hero client:load />
+        <LogosSlider client:visible />
+        <About client:visible />
+        <Projects data={HomepageData} client:visible />
+        <Contact client:visible />
+        <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+            <Chatbot client:load />
+        </div>
+    </main>
+    
+</Layout>

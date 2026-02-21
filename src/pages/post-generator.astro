@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PostGeneratorPage from "../modules/PostGenerator";
+---
+
+<Layout
+  title="AI Post Generator"
+  description="Genera posts profesionales con Inteligencia Artificial."
+>
+  <PostGeneratorPage client:only="react" />
+</Layout>
