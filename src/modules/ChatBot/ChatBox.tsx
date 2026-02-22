@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ThemeProvider } from '@emotion/react';
 import ChatBot from 'react-simple-chatbot';
 import { Icon } from '@iconify/react';

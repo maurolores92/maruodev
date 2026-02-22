@@ -1,9 +1,0 @@
----
-import Layout from "../layouts/Layout.astro";
-import AIToolsForm from "../modules/AITools";
----
-
-<Layout title="AI Tools" description="Colección de herramientas de IA">
-  <!-- Render React component client-side to avoid SSR issues -->
-  <AIToolsForm client:only="react" />
-</Layout>

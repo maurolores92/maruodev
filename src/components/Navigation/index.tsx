@@ -36,7 +36,7 @@ export const Navigation: FC = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="/ai-tools">
+                        <a href="https://codewithmauricio.tech" target="_blank" rel="noopener noreferrer">
                             <Icon iconData="work" alt="AI tools icon" />
                             AI Tools
                         </a>

@@ -1,4 +1,4 @@
-import { lacostillita, thewinenation, Lumiflowca, Sagcomstore, BlueWaveEnergy, CrealabStudio, ViaViajes } from "@static/images";
+import { thewinenation, Lumiflowca, Sagcomstore, BlueWaveEnergy, CrealabStudio, ViaViajes } from "@static/images";
 
 export const HomepageData = [
     {

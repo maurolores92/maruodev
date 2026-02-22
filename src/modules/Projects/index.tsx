@@ -1,4 +1,4 @@
-import { type FC, useRef, useMemo } from "react";
+import { type FC, useMemo } from "react";
 import { Container } from "@components/Container";
 import * as S from "./styled";
 import { ImageModal } from "@components/ImageModal";
