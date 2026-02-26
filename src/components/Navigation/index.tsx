@@ -38,7 +38,7 @@ export const Navigation: FC = () => {
                     <li>
                         <a href="https://codewithmauricio.tech" target="_blank" rel="noopener noreferrer">
                             <Icon iconData="work" alt="AI tools icon" />
-                            AI Tools
+                            App
                         </a>
                     </li>
                     <S.NavigationSocials />
