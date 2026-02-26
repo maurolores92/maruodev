@@ -1,8 +1,146 @@
-import { thewinenation, Lumiflowca, Sagcomstore, BlueWaveEnergy, CrealabStudio, ViaViajes, PreferredEnergyPower } from "@static/images";
+import { thewinenation, Lumiflowca, Sagcomstore, BlueWaveEnergy, CrealabStudio, ViaViajes, PreferredEnergyPower, TaskFlowAI } from "@static/images";
 
 export const HomepageData = [
-    {
-        title: "Preferred Energy Power",
+    {        title: "TaskFlow AI - SaaS Multi-tenant",
+        image: {
+          src: TaskFlowAI.src,
+          width: TaskFlowAI.width,
+          height: TaskFlowAI.height,
+          alt: "TaskFlow AI - Plataforma SaaS",
+        },
+        links: [
+          {
+            title: "GitHub",
+            link: "https://github.com/maurolores92/codewithmauricio-front",
+          },
+          {
+            title: "Demo",
+            link: "https://codewithmauricio.tech",
+          },
+        ],
+        extraInfo: [
+          {
+            "title": "Tecnologías y Herramientas",
+            "description": "React, Next.js, TypeScript, TailwindCSS, Node.js, Express, PostgreSQL, Prisma, JWT, React Query, Zustand, Dnd-kit, Zod, Integración con IA"
+          },
+          {
+            title: "Fecha",
+            description: "2026-02-01",
+          },
+          {
+            title: "Tipo",
+            description: "Proyecto Personal - SaaS",
+          },
+        ],
+        content: `
+            <section id="proyecto-taskflow-ai" class="proyecto">
+                <h3>🚀 Proyecto: TaskFlow AI – Plataforma SaaS Multi-tenant con IA</h3>
+                <p><strong>Tipo:</strong> Proyecto Personal – Desarrollo Full Stack End-to-End</p>
+                <p><strong>Rol:</strong> Arquitecto de Software & Desarrollador Full Stack</p>
+                <p><strong>Año:</strong> 2026</p>
+                <p><strong>Estado:</strong> En desarrollo activo</p>
+                <hr>
+                <h4>🎯 Objetivo del proyecto</h4>
+                <p>Desarrollar una plataforma SaaS multi-tenant completa para gestión de proyectos y tareas, integrando un módulo Kanban inteligente con capacidades de IA para automatización de flujos de trabajo. El sistema permite que múltiples organizaciones utilicen la aplicación de forma aislada y segura, con control granular de acceso basado en roles (RBAC).</p>
+                <h4>🧠 Arquitectura y Diseño</h4>
+                <ul>
+                    <li><strong>Arquitectura SaaS Multi-tenant:</strong> aislamiento lógico por <code>organizationId</code> garantizando privacidad total de datos</li>
+                    <li><strong>Sistema RBAC:</strong> control de acceso basado en roles con permisos granulares</li>
+                    <li><strong>Middleware de seguridad:</strong> validación de permisos, autenticación JWT y resolución de organización activa</li>
+                    <li><strong>Separación de capas:</strong> dominio, servicios, persistencia y presentación claramente desacoplados</li>
+                    <li><strong>Arquitectura modular escalable:</strong> servicios independientes y reutilizables</li>
+                </ul>
+                <h4>🖥️ Stack Frontend</h4>
+                <ul>
+                    <li><strong>Core:</strong> React / Next.js con TypeScript para tipado robusto</li>
+                    <li><strong>Estilos:</strong> TailwindCSS para diseño moderno y responsive</li>
+                    <li><strong>Estado:</strong>
+                    <ul>
+                        <li><em>React Query / TanStack Query</em> para gestión de estado server-side</li>
+                        <li><em>Zustand</em> para estado global de la aplicación</li>
+                    </ul>
+                    </li>
+                    <li><strong>Drag & Drop:</strong> Dnd-kit para funcionalidad Kanban fluida</li>
+                    <li><strong>Formularios:</strong> React Hook Form para manejo optimizado</li>
+                    <li><strong>Validación:</strong> Zod para esquemas type-safe</li>
+                    <li><strong>HTTP Client:</strong> Axios con interceptores personalizados</li>
+                </ul>
+                <h4>⚙️ Stack Backend</h4>
+                <ul>
+                    <li><strong>Runtime:</strong> Node.js con TypeScript</li>
+                    <li><strong>Framework:</strong> Express para API REST robusta</li>
+                    <li><strong>Base de datos:</strong> PostgreSQL con diseño relacional normalizado</li>
+                    <li><strong>ORM:</strong> Prisma para queries type-safe y migraciones controladas</li>
+                    <li><strong>Autenticación:</strong> JWT con refresh tokens y middleware de seguridad</li>
+                    <li><strong>Middleware custom:</strong>
+                    <ul>
+                        <li>Validación de permisos</li>
+                        <li>Resolución de organización activa</li>
+                        <li>Logging y monitoreo</li>
+                    </ul>
+                    </li>
+                </ul>
+                <h4>🗄️ Base de Datos</h4>
+                <ul>
+                    <li><strong>Motor:</strong> PostgreSQL</li>
+                    <li><strong>Diseño:</strong> esquema relacional con claves foráneas y cascadas</li>
+                    <li><strong>Multi-tenancy:</strong> <code>organizationId</code> en todas las tablas sensibles</li>
+                    <li><strong>Índices optimizados:</strong> para consultas multi-tenant eficientes</li>
+                    <li><strong>Soft deletes:</strong> para recuperación de datos</li>
+                </ul>
+                <h4>🤖 Integración de IA</h4>
+                <ul>
+                    <li><strong>Generación automática de estructuras Kanban:</strong> tableros, columnas y tareas iniciales</li>
+                    <li><strong>Sugerencias inteligentes:</strong> creación de tareas basadas en contexto del proyecto</li>
+                    <li><strong>Optimización de flujos:</strong> recomendaciones para organización de trabajo</li>
+                    <li><strong>Prompts estructurados:</strong> integración desde backend para consistencia</li>
+                </ul>
+                <h4>📱 Características destacadas</h4>
+                <ul>
+                    <li><strong>Módulo Kanban completo:</strong> tableros, columnas y tareas con drag & drop</li>
+                    <li><strong>Multi-tenancy real:</strong> aislamiento total por organización</li>
+                    <li><strong>Sistema de permisos granular:</strong> roles y permisos configurables</li>
+                    <li><strong>Gestión de usuarios:</strong> invitaciones, roles y estados</li>
+                    <li><strong>Dashboard de organización:</strong> métricas y KPIs en tiempo real</li>
+                    <li><strong>UI/UX moderna:</strong> diseño responsive y accesible</li>
+                    <li><strong>Optimización de rendimiento:</strong> queries eficientes y caching estratégico</li>
+                    <li><strong>Manejo de errores robusto:</strong> validaciones en frontend y backend</li>
+                </ul>
+                <h4>🔐 Seguridad y Escalabilidad</h4>
+                <ul>
+                    <li>Autenticación JWT con tokens de acceso y refresh</li>
+                    <li>Middleware de validación de permisos por endpoint</li>
+                    <li>Aislamiento de datos por organización a nivel de query</li>
+                    <li>Validación de esquemas con Zod en ambos lados</li>
+                    <li>Sanitización de inputs y protección XSS</li>
+                    <li>Rate limiting y protección contra ataques comunes</li>
+                </ul>
+                <h4>🧩 Valor diferencial</h4>
+                <p>Este proyecto demuestra capacidades <strong>fullstack end-to-end</strong> en un entorno real de producción:</p>
+                <ul>
+                    <li>✅ <strong>Arquitectura SaaS real</strong> con multi-tenancy implementado correctamente</li>
+                    <li>✅ <strong>Sistema RBAC completo</strong> con permisos granulares</li>
+                    <li>✅ <strong>Integración de IA</strong> aplicada a productividad</li>
+                    <li>✅ <strong>TypeScript end-to-end</strong> para type-safety total</li>
+                    <li>✅ <strong>Arquitectura escalable</strong> lista para crecimiento</li>
+                    <li>✅ <strong>Diseño modular</strong> con separación de responsabilidades</li>
+                    <li>✅ <strong>Código production-ready</strong> con mejores prácticas</li>
+                </ul>
+                <h4>🧠 Aprendizajes técnicos clave</h4>
+                <p>Este proyecto me permitió profundizar en:</p>
+                <ul>
+                    <li>Diseño de arquitecturas multi-tenant escalables</li>
+                    <li>Implementación de sistemas de autorización complejos</li>
+                    <li>Integración efectiva de IA en aplicaciones productivas</li>
+                    <li>Gestión de estado avanzada en aplicaciones React</li>
+                    <li>Optimización de queries en bases de datos relacionales</li>
+                    <li>Diseño de APIs RESTful robustas y mantenibles</li>
+                    <li>Patrones de diseño aplicados a desarrollo real</li>
+                </ul>
+            </section>
+        `,
+      },
+    {        title: "Preferred Energy Power",
         image: {
           src: PreferredEnergyPower.src,
           width: PreferredEnergyPower.width,

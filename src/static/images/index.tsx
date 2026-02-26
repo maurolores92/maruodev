@@ -11,6 +11,7 @@ import BlueWaveEnergy from "./BlueWaveEnergy.png";
 import CrealabStudio from "./CrealabStudio.png";
 import ViaViajes from "./Viaviajes.png";
 import PreferredEnergyPower from "./PreferredEnergyPower.png";
+import TaskFlowAI from "./TaskFlowAI.png";
 
 export const images = {
     logo: LogoImage,
@@ -24,7 +25,8 @@ export const images = {
     BlueWaveEnergy: BlueWaveEnergy,
     CrealabStudio: CrealabStudio,
     viaviajes: ViaViajes,
-    preferredEnergyPower: PreferredEnergyPower
+    preferredEnergyPower: PreferredEnergyPower,
+    taskFlowAI: TaskFlowAI,
 };
 
 type ImageProps = {
@@ -64,4 +66,4 @@ export const Image: FC<ImageProps> = ({
 };
 
 // default export of the images
-export { Preview, TECHapp, lacostillita, thewinenation, Lumiflowca, Sagcomstore, BlueWaveEnergy, CrealabStudio, ViaViajes, PreferredEnergyPower };
+export { Preview, TECHapp, lacostillita, thewinenation, Lumiflowca, Sagcomstore, BlueWaveEnergy, CrealabStudio, ViaViajes, PreferredEnergyPower, TaskFlowAI };
