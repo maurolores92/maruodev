@@ -1,4 +1,4 @@
-import {  TECHapp, lacostillita, thewinenation, Lumiflowca, Sagcomstore, BlueWaveEnergy, CrealabStudio, ViaViajes, PreferredEnergyPower, TaskFlowAI  } from "@static/images";
+import {  TECHapp, lacostillita, thewinenation, Lumiflowca, Sagcomstore, BlueWaveEnergy, CrealabStudio, ViaViajes, PreferredEnergyPower, TaskFlowAI, Allsafebackflow  } from "@static/images";
 
 export const ProjectsData = [
     {        title: "TaskFlow AI - SaaS Multi-tenant",
@@ -364,6 +364,86 @@ export const ProjectsData = [
                 </section>
         `,
     },
+    {        
+        title: "All Safe Backflow",
+        image: {
+          src: Allsafebackflow.src,
+          width: Allsafebackflow.width,
+          height: Allsafebackflow.height,
+          alt: "All Safe Backflow",
+        },
+        links: [
+          {
+            title: "Visitar",
+            link: "https://allsafebackflow.com/",
+          },
+        ],
+        extraInfo: [
+          {
+            "title": "Tecnologías y Herramientas",
+            "description": "WordPress, PHP, Elementor, WPForms, Contact Form 7, Yoast SEO, HTML-CSS, JavaScript, Google Analytics"
+            },
+          {
+            title: "Fecha",
+            description: "2025-03-01",
+          },
+          {
+            title: "Cliente",
+            description: "All Safe Backflow",
+          },
+        ],
+        content: `
+            <section id="proyecto-allsafebackflow" class="proyecto">
+                <h3>⚡ Proyecto: All Safe Backflow – Sitio Web de Servicios de Energía Solar</h3>
+                <p><strong>Cliente:</strong> All Safe Backflow – Empresa especializada en instalación de sistemas de energía solar y consultoría energética</p>
+                <p><strong>Rol:</strong> Desarrollador WordPress & Diseñador Web</p>
+                <p><strong>Año:</strong> 2025</p>
+                <p><strong>URL:</strong> 
+                    <a href="https://allsafebackflow.com" target="_blank" rel="noopener noreferrer">allsafebackflow.com</a>
+                </p>
+                <hr>
+                <h4>🎯 Objetivo del proyecto</h4>
+                <p>Desarrollar una plataforma web corporativa moderna y profesional que presente los servicios de instalación de paneles solares, consultoría energética y asesoramiento técnico, generando confianza y facilitando el contacto directo con clientes potenciales interesados en la transición energética.</p>
+                <h4>🛠️ Tecnologías y herramientas</h4>
+                <ul>
+                    <li><strong>CMS:</strong> WordPress optimizado para rendimiento y SEO</li>
+                    <li><strong>Backend:</strong> PHP para lógica personalizada y procesamiento de formularios</li>
+                    <li><strong>Constructor visual:</strong> Elementor para diseño corporativo profesional y editable</li>
+                    <li><strong>Plugins estratégicos:</strong>
+                    <ul>
+                        <li><em>WPForms y Contact Form 7</em> para solicitudes de cotización y consultas técnicas</li>
+                        <li><em>Yoast SEO</em> para posicionamiento en búsquedas de "instalación solar" y "energía renovable"</li>
+                        <li><em>Elementor Pro</em> para landing pages de conversión</li>
+                    </ul>
+                    </li>
+                    <li><strong>Analítica:</strong> Google Analytics para medir leads y comportamiento del usuario</li>
+                    <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript para interactividad y animaciones</li>
+                </ul>
+                <h4>📱 Características destacadas</h4>
+                <ul>
+                    <li><strong>Presentación de servicios:</strong> secciones detalladas de instalación residencial, comercial e industrial</li>
+                    <li><strong>Calculadora de ahorro energético:</strong> herramienta interactiva para estimar ahorros y retorno de inversión</li>
+                    <li><strong>Sistema de cotización inteligente:</strong> formularios multi-paso para captar información del proyecto del cliente</li>
+                    <li><strong>Portafolio de proyectos:</strong> galería de instalaciones realizadas con detalles técnicos</li>
+                    <li><strong>Diseño responsive y profesional:</strong> navegación optimizada en todos los dispositivos</li>
+                    <li><strong>SEO especializado:</strong> optimización para búsquedas locales y términos del sector energético</li>
+                    <li><strong>Blog educativo:</strong> artículos sobre beneficios de la energía solar, incentivos fiscales y casos de éxito</li>
+                    <li><strong>Llamadas a la acción estratégicas:</strong> botones de contacto y formularios en puntos clave de conversión</li>
+                    <li><strong>Certificaciones y credenciales:</strong> sección destacada de acreditaciones y garantías</li>
+                </ul>
+                <h4>📊 Resultados e impacto</h4>
+                <ul>
+                    <li>+80% de mejora en generación de leads cualificados</li>
+                    <li>+65% de incremento en solicitudes de cotización tras el primer mes</li>
+                    <li>Reducción del 70% en tiempo de respuesta a consultas gracias a formularios estructurados</li>
+                    <li>Posicionamiento en primeras páginas para búsquedas locales de "instalación de paneles solares"</li>
+                    <li>Mayor credibilidad y presencia digital profesional en el mercado energético norteamericano</li>
+                </ul>
+                <h4>🧠 Valor agregado</h4>
+                <p>Este proyecto demuestra mi capacidad para desarrollar <strong>sitios web corporativos orientados a la generación de leads y conversión</strong>, integrando herramientas de captura de clientes potenciales, diseño estratégico y optimización SEO para empresas de servicios técnicos especializados en el sector de energía renovable.</p>
+            </section>
+        `,
+      },
       {
         title: "VIA.AR",
         image: {
