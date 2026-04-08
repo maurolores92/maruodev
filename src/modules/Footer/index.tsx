@@ -11,7 +11,7 @@ export const Footer: FC = () => {
                     <p>© 2024 Todos los derechos reservados</p>
                     <p>
                         Diseñado por:{" "}
-                            Mauricio Lores
+                            MauroDev
                     </p>
                 </S.FooterContent>
             </S.FooterContainer>

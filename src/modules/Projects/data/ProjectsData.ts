@@ -11,7 +11,7 @@ export const ProjectsData = [
         links: [
           {
             title: "GitHub",
-            link: "https://github.com/maurolores92/codewithmauricio-front",
+            link: "https://github.com/92/codewithmauricio-front",
           },
           {
             title: "Demo",

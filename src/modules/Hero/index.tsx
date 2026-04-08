@@ -22,11 +22,11 @@ export const Hero: FC = () => {
                     </FadeIn>
                     <FadeIn delay={0.2}>
                         <S.PreHeading data-aos="fade-up">
-                            Hola, me llamo <strong>Mauricio Lores</strong>
+                            Hola, soy<strong>MauroDev</strong>
                         </S.PreHeading>
                         <S.HeroTitle>Web Developer</S.HeroTitle>
                         <p>
-                            Soy <b>Desarrollador Frontend</b>{" "} con mas de <b>3</b> años de experiencia en la industria.
+                            Soy <b>Desarrollador FullStack</b>{" "} con mas de <b>4</b> años de experiencia en la industria.
                         </p>
                     </FadeIn>
                     <FadeIn delay={0.3}>
